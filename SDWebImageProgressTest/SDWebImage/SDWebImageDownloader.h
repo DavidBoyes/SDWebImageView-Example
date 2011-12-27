@@ -23,7 +23,7 @@ extern NSString *const SDWebImageDownloadStopNotification;
     id<SDWebImageDownloaderDelegate> delegate;
     NSURLConnection *connection;
     NSMutableData *imageData;
-	id userInfo;
+    id userInfo;
     BOOL lowPriority;
 }
 
